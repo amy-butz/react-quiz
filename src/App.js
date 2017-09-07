@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Question from './components/Question';
-import quizQuestions from './api/quizQuestions';
+import quizQuestions from './components/api/quizQuestions';
+import Quiz from './components/Quiz'
 import logo from './logo.svg';
+import update from 'react-addons-update';
 import './App.css';
 
 class App extends Component {
@@ -22,7 +24,9 @@ constructor(props) {
      },
      result: ''
     };
-  }
+
+    this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
+}
 
   componentWillMount() {
     const shuffledAnswerOptions = quizQuestions.map((question) => this.shuffleArray(question.answers));  
@@ -51,6 +55,38 @@ constructor(props) {
 
     return array;
   };
+
+  setUserAnswer(answer) {
+    const updatedAnswersCount = update(this.state.answersCount, {
+      [answer]: {$apply: (currentValue) => currentValue + 1}
+    });
+    this.setState({
+      answersCount: updatedAnswersCount,
+      answer: answer
+    });
+  }
+
+  setNextQuestion() {
+    const counter = this.state.counter + 1;
+    const questionId = this.state.questionId + 1;
+    this.setState({
+      counter: counter,
+      questionId: questionId,
+      question: quizQuestions[counter].question,
+      answerOptions: quizQuestions[counter].answers,
+      answer: ''
+    });
+  }
+
+
+  handleAnswerSelected(event) {
+    this.setUserAnswer(event.currentTarget.value);
+    if (this.state.questionId < quizQuestions.length) {
+        setTimeout(() => this.setNextQuestion(), 300);
+      } else {
+        // do nothing for now
+      }
+  }
 
 render() {
     return (
