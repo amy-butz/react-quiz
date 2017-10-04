@@ -1,18 +1,23 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
+      question: "Getting results is one of my top priorities.",
       answers: [
           {
-              type: "Microsoft",
-              content: "Halo"
+              type: "Dominant",
+              content: "Strongly Agree"
           },
           {
-              type: "Nintendo",
-              content: "Pokemon"
+              type: "Compliant",
+              content: "Agree"
           },
           {
-              type: "Sony",
-              content: "Uncharted"
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
           }
       ]
   },
@@ -20,16 +25,21 @@ var quizQuestions = [
       question: "Which console would you prefer to play with friends?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box"
+              type: "Dominant",
+              content: "Strongly Agree"
           },
           {
-              type: "Nintendo",
-              content: "Nintendo 64"
+              type: "Compliant",
+              content: "Agree"
           },
           {
-              type: "Sony",
-              content: "Playstation 1"
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
           }
       ]
   },
@@ -37,16 +47,21 @@ var quizQuestions = [
       question: "Which of these racing franchises would you prefer to play a game from?",
       answers: [
           {
-              type: "Microsoft",
-              content: "Forza"
+              type: "Dominant",
+              content: "Strongly Agree"
           },
           {
-              type: "Nintendo",
-              content: "Mario Kart"
+              type: "Compliant",
+              content: "Agree"
           },
           {
-              type: "Sony",
-              content: "Gran Turismo"
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
           }
       ]
   },
@@ -54,16 +69,21 @@ var quizQuestions = [
       question: "Which of these games do you think is best?",
       answers: [
           {
-              type: "Microsoft",
-              content: "BioShock"
+              type: "Dominant",
+              content: "Strongly Agree"
           },
           {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              type: "Compliant",
+              content: "Agree"
           },
           {
-              type: "Sony",
-              content: "Final Fantasy VII"
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
           }
       ]
   },
@@ -71,16 +91,131 @@ var quizQuestions = [
       question: "What console would you prefer to own?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box One"
+              type: "Dominant",
+              content: "Strongly Agree"
           },
           {
-              type: "Nintendo",
-              content: "Wii U"
+              type: "Compliant",
+              content: "Agree"
           },
           {
-              type: "Sony",
-              content: "Playstation 4"
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
+          }
+      ]
+  },
+      {
+      question: "Getting results is one of my top priorities.",
+      answers: [
+          {
+              type: "Dominant",
+              content: "Strongly Agree"
+          },
+          {
+              type: "Compliant",
+              content: "Agree"
+          },
+          {
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
+          }
+      ]
+  },  
+    {
+      question: "Getting results is one of my top priorities.",
+      answers: [
+          {
+              type: "Dominant",
+              content: "Strongly Agree"
+          },
+          {
+              type: "Compliant",
+              content: "Agree"
+          },
+          {
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
+          }
+      ]
+  },
+      {
+      question: "Getting results is one of my top priorities.",
+      answers: [
+          {
+              type: "Dominant",
+              content: "Strongly Agree"
+          },
+          {
+              type: "Compliant",
+              content: "Agree"
+          },
+          {
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
+          }
+      ]
+  },
+      {
+      question: "Getting results is one of my top priorities.",
+      answers: [
+          {
+              type: "Dominant",
+              content: "Strongly Agree"
+          },
+          {
+              type: "Compliant",
+              content: "Agree"
+          },
+          {
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
+          }
+      ]
+  },
+      {
+      question: "Getting results is one of my top priorities.",
+      answers: [
+          {
+              type: "Dominant",
+              content: "Strongly Agree"
+          },
+          {
+              type: "Compliant",
+              content: "Agree"
+          },
+          {
+              type: "Influential",
+              content: "Somewhat Agree"
+          }
+
+          {
+              type: "Steady",
+              content: "Disagree"
           }
       ]
   }
