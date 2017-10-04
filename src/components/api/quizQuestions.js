@@ -13,7 +13,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -35,7 +35,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -57,7 +57,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -79,7 +79,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -101,7 +101,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -123,7 +123,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -145,7 +145,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -167,7 +167,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -189,7 +189,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
@@ -211,7 +211,7 @@ var quizQuestions = [
           {
               type: "Influential",
               content: "Somewhat Agree"
-          }
+          },
 
           {
               type: "Steady",
