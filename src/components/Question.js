@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-  function Question(props) {
+ function Question(props) {
     return (
       <h2 className="question">{props.content}</h2>
     );
