@@ -22,32 +22,32 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
+      question: "Rules usually are made for a reason and serve an important purpose",
       answers: [
           {
-              type: "Dominant",
+              type: "Compliant",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Steady",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Dominant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Influential",
               content: "Disagree"
           }
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
+      question: "It is important to take your time to make sure you get things right.",
       answers: [
           {
-              type: "Dominant",
+              type: "Steady",
               content: "Strongly Agree"
           },
           {
@@ -55,150 +55,150 @@ var quizQuestions = [
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Dominant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Influential",
               content: "Disagree"
           }
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "Personality and personal relationships are the most valuable capital.",
       answers: [
           {
-              type: "Dominant",
+              type: "Influential",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Steady",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Dominant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Compliant",
               content: "Disagree"
           }
       ]
   },
   {
-      question: "What console would you prefer to own?",
+      question: "Rules are made to be broken if they get in the way of results",
       answers: [
           {
               type: "Dominant",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Influential",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Steady",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Compliant",
               content: "Disagree"
           }
       ]
   },
       {
-      question: "Getting results is one of my top priorities.",
+      question: "I love working collaboratively with others.",
       answers: [
           {
-              type: "Dominant",
+              type: "Steady",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Influential",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Compliant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Dominant",
               content: "Disagree"
           }
       ]
   },  
     {
-      question: "Getting results is one of my top priorities.",
+      question: "I always double check my work before moving on.",
       answers: [
           {
-              type: "Dominant",
+              type: "Compliant",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Steady",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Dominant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Influential",
               content: "Disagree"
           }
       ]
   },
       {
-      question: "Getting results is one of my top priorities.",
+      question: "I like to be the center of attention.",
       answers: [
           {
-              type: "Dominant",
+              type: "Influential",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Dominant",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Steady",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Compliant",
               content: "Disagree"
           }
       ]
   },
       {
-      question: "Getting results is one of my top priorities.",
+      question: "I feel that it is important to praise others when they do a good job.",
       answers: [
           {
-              type: "Dominant",
+              type: "Steady",
               content: "Strongly Agree"
           },
           {
-              type: "Compliant",
+              type: "Influential",
               content: "Agree"
           },
           {
-              type: "Influential",
+              type: "Dominant",
               content: "Somewhat Agree"
           },
 
           {
-              type: "Steady",
+              type: "Compliant",
               content: "Disagree"
           }
       ]
   },
       {
-      question: "Getting results is one of my top priorities.",
+      question: "I don't take 'no' for an answer.",
       answers: [
           {
               type: "Dominant",
