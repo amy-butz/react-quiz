@@ -93,7 +93,7 @@ render() {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2>MUSICANALITY: A Quiz Created with React</h2>
         </div>
         <Quiz
           answer={this.state.answer}
