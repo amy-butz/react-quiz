@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Question from './components/Question';
-import quizQuestions from './components/api/quizQuestions';
+import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
 import logo from './logo.svg';
 import update from 'react-addons-update';
@@ -18,9 +18,10 @@ constructor(props) {
      answerOptions: [],
      answer: '',
      answersCount: {
-       nintendo: 0,
-       microsoft: 0,
-       sony: 0
+       Dominant: 0,
+       Influential: 0,
+       Steady: 0,
+       Compliant: 0
      },
      result: ''
     };

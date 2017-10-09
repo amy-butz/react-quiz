@@ -2,6 +2,7 @@
   import Question from '../components/Question';
   import QuestionCount from '../components/QuestionCount';
   import AnswerOption from '../components/AnswerOption';
+  import PropTypes from 'prop-types';
 
   function Quiz(props) {
 
