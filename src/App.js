@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+ import PropTypes from 'prop-types';
 import Question from './components/Question';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
-import logo from './logo.svg';
 import update from 'react-addons-update';
 import './App.css';
 
@@ -79,21 +79,36 @@ constructor(props) {
     });
   }
 
-
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
     if (this.state.questionId < quizQuestions.length) {
         setTimeout(() => this.setNextQuestion(), 300);
       } else {
-        // do nothing for now
+          setTimeout(() => this.setResults(this.getResults()), 300);
       }
+  }
+
+  getResults() {
+    const answersCount = this.state.answersCount;
+    const answersCountKeys = Object.keys(answersCount);
+    const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
+    const maxAnswerCount = Math.max.apply(null, answersCountValues);
+
+    return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
+  }
+
+   setResults (result) {
+    if (result.length === 1) {
+      this.setState({ result: result[0] });
+    } else {
+      this.setState({ result: 'Undetermined' });
+    }
   }
 
 render() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2>MUSICANALITY: A Quiz Created with React</h2>
         </div>
         <Quiz
@@ -106,6 +121,7 @@ render() {
         />
       </div>
     )
+this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
 }
 export default App;
