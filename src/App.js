@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
- import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Question from './components/Question';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz'
 import update from 'react-addons-update';
+import Result from './components/Result'
 import './App.css';
 
 class App extends Component {
@@ -105,20 +106,35 @@ constructor(props) {
     }
   }
 
+
+  renderQuiz() {
+    return (
+      <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+      />
+    );
+  }
+
+  renderResult() {
+    return (
+      <Result quizResult={this.state.result} />
+    );
+  }
+
 render() {
     return (
       <div className="App">
         <div className="App-header">
           <h2>MUSICANALITY: A Quiz Created with React</h2>
         </div>
-        <Quiz
-          answer={this.state.answer}
-          answerOptions={this.state.answerOptions}
-          questionId={this.state.questionId}
-          question={this.state.question}
-          questionTotal={quizQuestions.length}
-          onAnswerSelected={this.handleAnswerSelected}
-        />
+
+        {this.state.result ? this.renderResult() : this.renderQuiz()}
+        
       </div>
     )
 this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
