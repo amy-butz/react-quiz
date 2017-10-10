@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Maps from '../api/Maps';
 
   function Result(props) {
     return (
       <div className="result">
-        Your personality type is <strong>{props.quizResult}</strong>! 
-        \nYou may enjoy listening to 
-        {/* this is where Spotify api should go */}
+        <Maps />
+        {/* Your personality type is <strong>{props.quizResult}</strong>! */}
       </div>
     );
   }

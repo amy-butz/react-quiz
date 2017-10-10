@@ -130,7 +130,7 @@ render() {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>MUSICANALITY: A Quiz Created with React</h2>
+          <h2>GEO-PERSONALITY :: A quiz made with React</h2>
         </div>
 
         {this.state.result ? this.renderResult() : this.renderQuiz()}
