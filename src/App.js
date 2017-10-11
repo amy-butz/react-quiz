@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Question from './components/Question';
 import quizQuestions from './api/quizQuestions';
-import Quiz from './components/Quiz'
+import Quiz from './components/Quiz';
 import update from 'react-addons-update';
-import Result from './components/Result'
+import Result from './components/Result';
 import './App.css';
 
 class App extends Component {
