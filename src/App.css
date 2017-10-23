@@ -39,6 +39,10 @@ div {
   padding: 1.5rem 2.5rem;
 }
 
+.map {
+  width: 80%;
+}
+
 /* Quiz Component */
 .answerOptions {
   margin: 0;

@@ -12,7 +12,7 @@ var quizQuestions = [
           },
           {
               type: "Influential",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -34,7 +34,7 @@ var quizQuestions = [
           },
           {
               type: "Dominant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -56,7 +56,7 @@ var quizQuestions = [
           },
           {
               type: "Dominant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -78,7 +78,7 @@ var quizQuestions = [
           },
           {
               type: "Dominant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -100,7 +100,7 @@ var quizQuestions = [
           },
           {
               type: "Steady",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -122,7 +122,7 @@ var quizQuestions = [
           },
           {
               type: "Compliant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -144,7 +144,7 @@ var quizQuestions = [
           },
           {
               type: "Dominant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -166,7 +166,7 @@ var quizQuestions = [
           },
           {
               type: "Steady",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -188,7 +188,7 @@ var quizQuestions = [
           },
           {
               type: "Dominant",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {
@@ -210,7 +210,7 @@ var quizQuestions = [
           },
           {
               type: "Influential",
-              content: "Somewhat Agree"
+              content: "Neutral"
           },
 
           {

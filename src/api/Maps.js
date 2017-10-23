@@ -7,7 +7,7 @@ import MapContainer from './GoogleApi'
 
 function DominantMap(props) { 
      return (
-        <div> 
+        <div class="map"> 
         <p>Your personality is <strong>New York City.</strong> 
         You like to hustle, to be where the action is, to get things done.
         You prefer no nonsense, you are more than comfortable being in charge,
@@ -27,7 +27,7 @@ function DominantMap(props) {
 
 function InfluentialMap(props) {
     return (
-        <div> 
+        <div class="map">
         <p>Your personality is <strong>Los Angeles.</strong> 
         Your greatest strength is influencing other people, and your people skills make you an effective leader. 
         You are the life of the party,and you are quite comfortable being the center of attention. 
@@ -49,7 +49,7 @@ function InfluentialMap(props) {
 
 function SteadyMap(props) {
      return (
-     <div> 
+        <div class="map"> 
         <p>Your personality is <strong>Charlotte, North Carolina.</strong> 
         You are a strong and steady individual. You value family, community, tradition, beauty, and harmony.
         You appreciate long walks through picturesque parks, sit down chats over iced tea or coffee, and
@@ -70,7 +70,7 @@ function SteadyMap(props) {
 
 function CompliantMap(props) { 
     return (
-    <div> 
+        <div class="map">
         <p>Your personality is <strong>Washington DC.</strong> 
         You are both practical and analytical by nature. Therefore rules and regulations and principles are 
         important to you. You are systematic, thorough, precise, and very careful. But you also know how to get
@@ -91,7 +91,7 @@ function CompliantMap(props) {
 
 function UndeterminedMap(props) {
     return (
-    <div> 
+        <div class="map">
         <p>Your personality is <strong>Nashville.</strong> 
         You are a complex and well-rounded person. You know how to have a good time, and you appreciate culture and night
         life. But you are also committed to family and career. You enjoy the outdoors, but you are equally happy visting
