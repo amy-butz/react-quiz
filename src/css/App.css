@@ -1,3 +1,4 @@
+
 /* Shared */
 
 * {
@@ -9,6 +10,14 @@ body {
   padding: 0;
   background: #eee;
   font-family: sans-serif;
+}
+
+h2 {
+  margin-left: 40px;
+}
+
+div {
+  white-space: pre-wrap;
 }
 
 .container {
@@ -28,6 +37,10 @@ body {
 /* Result Component */
 .result {
   padding: 1.5rem 2.5rem;
+}
+
+.map {
+  width: 400px;
 }
 
 /* Quiz Component */
@@ -97,7 +110,7 @@ body {
 
 .radioCustomButton:checked ~ .radioCustomLabel:before {
     content: '';
-    background: #8BC53F url(./svg/icon-check.svg) no-repeat;
+    background: #8BC53F url(../svg/icon-check.svg) no-repeat;
     background-size: 27px;
     border-color: #8BC53F;
 }

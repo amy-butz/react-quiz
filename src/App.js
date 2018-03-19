@@ -3,7 +3,7 @@ import quizQuestions from './components/quizQuestions';
 import Quiz from './components/Quiz';
 import update from 'react-addons-update';
 import Result from './components/Result';
-import './App.css';
+import './css/App.css';
 
 class App extends Component {
 
@@ -115,7 +115,7 @@ render() {
         
       </div>
     )
-this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
+// this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
 }
 export default App;
