@@ -1,4 +1,4 @@
-var quizQuestions = [
+const quizQuestions = [
   {
       question: "Getting results is one of my top priorities.",
       answers: [
@@ -22,7 +22,7 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Rules usually are made for a reason and serve an important purpose",
+      question: "Rules usually are made for a reason and serve an important purpose.",
       answers: [
           {
               type: "Compliant",
@@ -218,7 +218,117 @@ var quizQuestions = [
               content: "Disagree"
           }
       ]
-  }
+  },
+    {
+        question: "When making plans with a group, I am happy to go along with what others decide.",
+        answers: [
+            {
+                type: "Compliant",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Steady",
+                content: "Agree"
+            },
+            {
+                type: "Influential",
+                content: "Neutral"
+            },
+
+            {
+                type: "Dominant",
+                content: "Disagree"
+            }
+        ]
+    },
+    {
+        question: "I have to clean and organize my environment before I can start working.",
+        answers: [
+            {
+                type: "Steady",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Compliant",
+                content: "Agree"
+            },
+            {
+                type: "Dominant",
+                content: "Neutral"
+            },
+
+            {
+                type: "Influential",
+                content: "Disagree"
+            }
+        ]
+    },
+    {
+        question: "I set ambitious goals for myself, and go after them.",
+        answers: [
+            {
+                type: "Dominant",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Influential",
+                content: "Agree"
+            },
+            {
+                type: "Steady",
+                content: "Neutral"
+            },
+
+            {
+                type: "Compliant",
+                content: "Disagree"
+            }
+        ]
+    },
+    {
+        question: "The image you project to the world is hugely important.",
+        answers: [
+            {
+                type: "Influential",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Dominant",
+                content: "Agree"
+            },
+            {
+                type: "Compliant",
+                content: "Neutral"
+            },
+
+            {
+                type: "Steady",
+                content: "Disagree"
+            }
+        ]
+    },
+    {
+        question: "Work hard, party harder!",
+        answers: [
+            {
+                type: "Influential",
+                content: "Strongly Agree"
+            },
+            {
+                type: "Compliant",
+                content: "Agree"
+            },
+            {
+                type: "Dominant",
+                content: "Neutral"
+            },
+
+            {
+                type: "Steady",
+                content: "Disagree"
+            }
+        ]
+    }
 ];
 
 export default quizQuestions;

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import Question from './components/Question';
-import quizQuestions from './api/quizQuestions';
+import quizQuestions from './components/quizQuestions';
 import Quiz from './components/Quiz';
 import update from 'react-addons-update';
 import Result from './components/Result';
